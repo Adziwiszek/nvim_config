@@ -27,21 +27,3 @@ vim.opt.isfname:append("@-@")
 vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "80"
-
-vim.diagnostic.config({
-  virtual_text = {
-    spacing = 4,
-    prefix = "●", -- or ">>", or ""
-  },
-  signs = true,
-  underline = true,
-  update_in_insert = false,
-  severity_sort = true,
-  float = {
-    border = "rounded",
-    source = "always",
-    header = "",
-    prefix = "",
-  },
-})
-
